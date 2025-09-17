@@ -18,7 +18,7 @@
 ARG ENABLE_PROXY=false
 ARG ETCD_VERSION=v3.4.14
 ARG APISIX_VERSION=master
-ARG APISIX_DASHBOARD_VERSION=master
+ARG APISIX_DASHBOARD_VERSION=notice
 
 # Build Apache APISIX
 FROM openresty/openresty:1.25.3.2-0-alpine-fat AS production-stage
